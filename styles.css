@@ -1,0 +1,66 @@
+.grid {
+  display: grid;
+  height: 800px;
+
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template:20% 80%/1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.box {
+
+  color: black;
+  border-radius: 5px;
+
+}
+.border{
+  top: 25px;
+  width: 400px;
+  margin: 5px auto;
+  border: 3px solid white
+}
+#img-border{
+  background: IMG_1713.jpg;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 50% 50% 50% 50%;
+  width:125px;
+  height:125px;
+}
+.border-bottom{
+  border-bottom: 3px solid black;
+
+}
+.section-three{
+  border-bottom: 2px solid gray;
+}
+
+.flex-section{
+  display: flex;
+  justify-content: space-around;
+
+}
+.p{
+  text-align: right;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.a{
+  background-color:teal;
+  color:white;
+  grid-area: 1/1/1/7;
+}
+.b{
+  background-color:gray;
+  grid-area:2/2/2/3;
+}
+.d{
+  grid-area: 2/3/2/6;
+}
